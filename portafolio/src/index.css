@@ -12,3 +12,19 @@
     font-family: "Fira Code Variable";
     color: white;
 }
+
+.comentario {
+    color: #607B96;
+}
+
+.variable {
+    color: #4D5BCE;
+}
+
+.nombreVariable {
+    color: #43D9AD;
+}
+
+.contenido {
+    color: #E99287;
+}
