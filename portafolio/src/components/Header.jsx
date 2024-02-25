@@ -23,7 +23,7 @@ const Header = ({ setPagina }) => {
 
     return (
         <>
-            <header style={estiloHeader} className="grid md:grid-cols-6 lg:grid-cols-9 border-b border-[#1E2D3D]">
+            <header style={estiloHeader} className="fixed w-screen z-30 grid md:grid-cols-6 lg:grid-cols-9 border-b border-[#1E2D3D] bg-[#011627]">
                 <div
                     className="p-3 border-r lg:col-span-2 border-[#1E2D3D] text-center">
                     noel-sariñena
