@@ -30,7 +30,7 @@ const _bienvenida = () => {
                         <img
                             src={myPhoto}
                             alt="Foto de Noel Sariñena"
-                            className='w-fit'
+                            className='h-full '
                         />
                     </div>
                 </div>
