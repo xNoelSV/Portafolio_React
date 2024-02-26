@@ -1,4 +1,6 @@
 import myPhoto from './../images/myPhoto.webp'
+import blurGreen from '/public/blurGreen.svg'
+import blurBlue from '/public/blurBlue.svg'
 
 const _bienvenida = () => {
 
@@ -6,6 +8,8 @@ const _bienvenida = () => {
         <>
             <div className='w-full'>
                 <div className='grid md:grid-cols-2'>
+                    <img src={blurGreen} alt="Blur de fondo verde" className='md:h-svh brightness-75 -z-50 absolute md:-top-20 xl:left-40' />
+                    <img src={blurBlue} alt="Blur de fondo azul" className='md:h-svh brightness-75 -z-50 absolute md:right-20 top-56 md:top-auto' />
                     <div
                         className='md:h-screen flex justify-end p-7 md:p-0 md:pr-12 items-center md:ml-14 mt-10 md:mt-0'>
                         <div>
@@ -41,15 +45,15 @@ const _bienvenida = () => {
                         </div>
                     </div>
                     <div
-                        className='h-screen pb-10 md:pe-10 flex justify-center items-center'>
+                        className='md:h-screen pb-10 md:pe-10 flex justify-center items-center'>
                         <img
                             src={myPhoto}
                             alt="Foto de Noel Sariñena"
-                            className='h-full hover:drop-shadow-xl transition duration-200 ease-in-out hover:scale-105 saturate-100 hover:saturate-[1.1]'
+                            className='md:h-full hover:drop-shadow-xl transition duration-200 ease-in-out hover:scale-105 saturate-50 hover:saturate-100'
                         />
                     </div>
                 </div>
-            </div>
+            </div >
         </>
     )
 }

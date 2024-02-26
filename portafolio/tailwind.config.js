@@ -4,7 +4,7 @@ export default {
   theme: {
     extend: {
       dropShadow: {
-        'xl': '0 35px 35px #7175c0'
+        'xl': '0 35px 35px #4D5BCE'
       }
     },
   },
