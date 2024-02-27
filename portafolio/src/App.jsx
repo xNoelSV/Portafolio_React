@@ -12,11 +12,6 @@ const App = () => {
     // States
     const [pagina, setPagina] = useState('_bienvenida');
 
-    // Effects
-    useEffect(() => {
-        console.log(pagina);
-    }, [pagina]);
-
     // Métodos
     const headerNavegador = () => {
         if (navigator.userAgent.match(/Android/i)
